@@ -1,6 +1,5 @@
 # Robot Knowledge Engine
 
-[![CI](https://github.com/Songayu666/robot-knowledge-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/Songayu666/robot-knowledge-engine/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 
 An evidence-grounded, version-aware knowledge engine for robot manuals, engineering documents, and source code.
