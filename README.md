@@ -1,5 +1,7 @@
 # Robot Knowledge Engine
 
+[English](README.md) | [简体中文](README.zh_CN.md)
+
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 
 An evidence-grounded, version-aware knowledge engine for robot manuals, engineering documents, and source code.
@@ -27,7 +29,7 @@ The repository currently provides:
 - an initial official X1 source manifest;
 - a privacy-safe local document inventory tool;
 - PostgreSQL/pgvector and Redis service definitions;
-- tests, linting, CI, architecture, roadmap, and data policy.
+- tests, linting, architecture, roadmap, and data policy.
 
 ## Quick start
 
