@@ -1,0 +1,82 @@
+version: 1
+sources:
+  - id: agibot-x1-product
+    name: AgiBot Lingxi X1 product page
+    kind: web
+    location: https://www.agibot.com.cn/products/X1
+    official: true
+    product: AgiBot Lingxi X1
+    document_type: product_page
+
+  - id: agibot-x1-development-guide
+    name: AgiBot Lingxi X1 development guide
+    kind: web
+    location: https://www.agibot.com.cn/DOCS/OS
+    official: true
+    product: AgiBot Lingxi X1
+    document_type: development_guide
+    published_at: 2024-10-24
+    source_updated_at: 2025-03-07
+
+  - id: agibot-x1-powerflow-l28
+    name: PowerFlow L28 product manual
+    kind: web
+    location: https://www.agibot.com.cn/DOCS/PM/PFL28
+    official: true
+    product: AgiBot Lingxi X1
+    document_type: actuator_manual
+    published_at: 2025-01-14
+    component: PowerFlow L28
+
+  - id: agibot-x1-powerflow-r
+    name: PowerFlow R-series actuator manual
+    kind: web
+    location: https://www.agibot.com.cn/DOCS/PM/PFR
+    official: true
+    product: AgiBot Lingxi X1
+    document_type: actuator_manual
+    published_at: 2025-01-14
+    components: [PowerFlow R86-3, PowerFlow R86-2, PowerFlow R52]
+
+  - id: agibot-x1-dcu
+    name: AgiBot DCU product manual
+    kind: web
+    location: https://www.agibot.com.cn/DOCS/PM/DCU
+    official: true
+    product: AgiBot Lingxi X1
+    document_type: controller_manual
+    published_at: 2025-01-14
+    component: DCU
+
+  - id: agibot-x1-hardware-github
+    name: AgiBot X1 hardware repository
+    kind: github
+    location: https://github.com/AgibotTech/agibot_x1_hardware
+    official: true
+    product: AgiBot Lingxi X1
+    document_type: engineering_files
+
+  - id: agibot-x1-infer-github
+    name: AgiBot X1 inference repository
+    kind: github
+    location: https://github.com/AgibotTech/agibot_x1_infer
+    official: true
+    product: AgiBot Lingxi X1
+    document_type: source_code
+
+  - id: agibot-x1-train-github
+    name: AgiBot X1 training repository
+    kind: github
+    location: https://github.com/AgibotTech/agibot_x1_train
+    official: true
+    product: AgiBot Lingxi X1
+    document_type: source_code
+
+  - id: local-agibot-x1-dataset
+    name: Local AgiBot X1 engineering dataset
+    kind: local
+    location: ${RKE_LOCAL_X1_ROOT}
+    official: false
+    product: AgiBot Lingxi X1
+    document_type: mixed_local_archive
+    publish: false
